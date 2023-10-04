@@ -110,3 +110,11 @@
 //   return x * 2;
 // }
 
+function oudsideOrNah(weather) => {
+    if (weather === "sunny"){
+        return "we outside"
+    } else {
+        return " nah boi, its cold"
+    }
+}
+module.exports = oudsideOrNah
